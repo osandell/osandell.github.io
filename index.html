@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Olof Sandell</title>
+    <link rel="icon" type="image/png" href="favicon.ico" />
+
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700"
+      media="screen"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="l-container">
+      <header class="l-header">
+        <div class="l-content-container l-content-container--heading">
+          <div class="c-header-top c-header-top--contracted">
+            <div class="l-logo-box">
+              <p class="c-logo">Olof Sandell</p>
+            </div>
+            <img src="images/menu.svg" class="c-menu-button" alt="open menu" />
+            <img src="images/exit.svg" class="c-exit-button" alt="close menu" />
+          </div>
+
+          <ul class="c-navigation">
+            <ul class="c-navigation__list">
+              <li
+                class="c-navigation__item c-navigation__item--l-section-portfolio"
+              >
+                <span class="underline-animation">Portfolio</span>
+              </li>
+
+              <li
+                class="c-navigation__item c-navigation__item--l-section-contact"
+              >
+                <span class="underline-animation">Contact</span>
+              </li>
+            </ul>
+          </ul>
+        </div>
+      </header>
+      <main class="l-main">
+        <section class="l-section-hero">
+          <div class="l-content-container l-content-container--hero">
+            <h1
+              class="c-heading-primary c-heading-primary--main u-margin-top-medium"
+              id="heading-main"
+            >
+              <span class="c-heading-primary--emphasized anim1">Hi!</span>
+              <span class="anim1">I'm Olof.</span>
+            </h1>
+
+            <h1
+              class="c-heading-primary c-heading-primary--sub u-margin-bottom-big anim2"
+              id="heading-sub"
+            >
+              I build modern, stylish and user friendly web sites fully
+              costumized for the client's needs.
+            </h1>
+
+            <button
+              class="c-button c-button--blue-translucent c-button--to-portfolio c-button--hidden anim2"
+            >
+              Learn more
+            </button>
+          </div>
+        </section>
+        <section class="l-section-portfolio">
+          <div class="l-content-container l-content-container--portfolio">
+            <div class="c-preamble">
+              <h3 class="c-heading-tertiary">Client case</h3>
+              <h5 class="c-preamble__content c-heading-quinary">
+                The owner of a local pub needed a new web site. What he required
+                was a site that looks equally good on a mobile phone, a tablet,
+                as well as a desktop computer.<br /><br />
+                He also wanted to be able to log in by himself and make changes
+                to the food menu, opening hours and so on.
+              </h5>
+            </div>
+
+            <div class="c-demo-card__container">
+              <div
+                class="c-demo-card__background c-demo-card__background--multi-device"
+              >
+                <p class="c-paragraph c-demo-card__paragraph">
+                  I started by designing a layout that is easy to navigate, and
+                  proceeded by making the site adapt to whatever device the
+                  visitor uses.
+                </p>
+              </div>
+              <img
+                class="c-demo-card__image c-demo-card__image--multi-device"
+                src="images/multi-device.png"
+                alt="multi-device"
+              />
+            </div>
+
+            <div
+              class="c-demo-card__container c-demo-card__container--login-before"
+            >
+              <div
+                class="c-demo-card__background c-demo-card__background--login-before"
+              >
+                <p class="c-paragraph c-demo-card__paragraph">
+                  I made it possible to log in to the site so the owner can
+                  modify the content.
+                </p>
+              </div>
+              <img
+                class="c-demo-card__image c-demo-card__image--login"
+                src="images/login.gif"
+                alt="login"
+              />
+            </div>
+
+            <div class="c-demo-card__container">
+              <div
+                class="c-demo-card__background c-demo-card__background--modify-content"
+              >
+                <p class="c-paragraph c-demo-card__paragraph">
+                  After logging in it's easy to modify opening hours, add and
+                  change dishes in the menu and more.
+                </p>
+              </div>
+              <img
+                class="c-demo-card__image c-demo-card__image--modify-content"
+                src="images/modify-content.gif"
+                alt="modify-content"
+              />
+            </div>
+          </div>
+        </section>
+
+        <section class="l-section-contact">
+          <div class="l-content-container l-content-container--contact">
+            <h4 class="c-heading-quaternary c-heading-quaternary--left-aligned">
+              Get in touch
+            </h4>
+            <p class="c-paragraph">
+              Right now I'm looking for a position as a junior developer at a
+              company that focuses on modern web technologies such as React.js.
+              If you think I would be a good fit please contact me here or via
+              <a
+                class="c-paragraph__link"
+                href="https://www.linkedin.com/in/olof-sandell/"
+                >LinkedIn</a
+              >.
+
+              <br /><br />
+              Also let me know if you are the owner of a small business and need
+              a new web page. Write a couple of lines about your requirements
+              and I'll get back to you shortly.
+            </p>
+
+            <form
+              id="my-form"
+              action="https://formspree.io/f/xpzkrzyl"
+              method="POST"
+              class="c-contact-form"
+            >
+              <div class="c-contact-form__form-control">
+                <label
+                  class="c-paragraph c-paragraph--bold c-contact-form__label"
+                  >Name</label
+                >
+                <input
+                  class="c-contact-form__input c-contact-form__input--name"
+                  name="name"
+                />
+                <img
+                  src="images/exclamation-circle.svg"
+                  class="c-contact-form__exclamation-icon"
+                  alt=" Exclamation"
+                />
+              </div>
+
+              <div class="c-contact-form__form-control">
+                <label
+                  class="c-paragraph c-paragraph--bold c-contact-form__label"
+                  >Email</label
+                >
+                <input
+                  class="c-contact-form__input c-contact-form__input--email"
+                  name="email"
+                  onblur="checkInputsOnBlur()"
+                />
+                <img
+                  src="images/exclamation-circle.svg"
+                  class="c-contact-form__exclamation-icon"
+                  alt=" Exclamation"
+                />
+                <label class="c-paragraph c-contact-form__error-message"
+                  >Error message</label
+                >
+              </div>
+
+              <div class="c-contact-form__form-control">
+                <label
+                  class="c-paragraph c-paragraph--bold c-contact-form__label"
+                  >Phone</label
+                >
+                <input
+                  class="c-contact-form__input c-contact-form__input--phone"
+                  onblur="checkInputsOnBlur();"
+                  name="phone"
+                />
+                <img
+                  src="images/exclamation-circle.svg"
+                  class="c-contact-form__exclamation-icon"
+                  alt=" Exclamation"
+                />
+                <label
+                  class="c-paragraph c-contact-form__error-message c-contact-form__error-message--phone"
+                  >Error message</label
+                >
+              </div>
+
+              <div class="c-contact-form__form-control">
+                <label
+                  class="c-paragraph c-paragraph--bold c-contact-form__label"
+                  >Message</label
+                >
+                <textarea
+                  class="c-contact-form__input c-contact-form__input--large c-contact-form__input--message"
+                  name="message"
+                ></textarea>
+                <img
+                  src="images/exclamation-circle.svg"
+                  class="c-contact-form__exclamation-icon"
+                  alt=" Exclamation"
+                />
+                <label class="c-paragraph c-contact-form__error-message"
+                  >Error message</label
+                >
+              </div>
+
+              <button
+                class="c-button c-button--blue c-button--submit-form"
+                id="my-form-button"
+              >
+                Submit
+              </button>
+
+              <!-- <input
+              class="c-button c-button--blue c-button--submit-form"
+              type="button"
+              value="Send"
+              onclick="checkInputsOnSubmit();"
+            /> -->
+            </form>
+            <!-- onblur="checkInputsOnBlur();" -->
+          </div>
+        </section>
+      </main>
+      <footer class="l-footer">
+        <div class="c-transition">
+          <svg
+            class="c-transition--blue-wave"
+            width="1319"
+            height="330"
+            viewBox="0 0 1319 330"
+            fill="none"
+            preserveAspectRatio="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M0 100.5C0 100.5 341 263.502 629.5 100.501C918 -62.5005 1319 23.0004 1319 23.0004V330H0V100.5Z"
+              fill="#000"
+            />
+          </svg>
+          <svg
+            class="c-transition--gray-wave"
+            width="1319"
+            height="190"
+            viewBox="0 0 1319 190"
+            fill="none"
+            preserveAspectRatio="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M0 0C0 0 227.5 218.518 651 90.5641C1074.5 -37.3894 1319 189.152 1319 189.152H0V0Z"
+              fill="#000"
+            />
+          </svg>
+        </div>
+
+        <div class="l-content-container l-content-container--footer">
+          <a href="https://www.linkedin.com/in/olof-sandell/">
+            <img
+              src="images/linkedin-square.svg"
+              class="c-icon-link"
+              alt="linkedin"
+            />
+          </a>
+
+          <label class="c-label">© 2021 Olof Sandell</label>
+        </div>
+      </footer>
+    </div>
+
+    <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/gsap-latest-beta.min.js"></script>
+    <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/CSSRulePlugin3.min.js"></script>
+    <script type="text/javascript" src="scripts/custom.js"></script>
+  </body>
+</html>
